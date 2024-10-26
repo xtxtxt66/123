@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收藏好本网站</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            position: relative; /* 确保容器可以包含绝对定位的标题 */
+        }
+        .site-title {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2em;
+            background-color: #fff;
+            padding: 10px 2px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px; /* 为内容部分添加顶部内边距 */
+            flex: 1;
+        }
+        .avatar-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .avatar-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 20px; /* 调整内边距以适应按钮宽度 */
+            width: 250px; /* 设置固定宽度 */
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+            text-align: center; /* 确保文字在按钮中居中 */
+        }
+        .button-container a:nth-child(1) {
+            background-color: #333; /* 第一个按钮背景色为绿色 */
+        }
+        .button-container a:not(:nth-child(1)) {
+            background-color: #333; /* 其他按钮背景色为深灰色 */
+        }
+        .button-container a:hover {
+            background-color: #555; /* 鼠标悬停时按钮背景色变深 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="site-title">收藏好本网站</h1>
+        <div class="content">
+            <div class="avatar-container">
+                <img src="https://qqq.gtimg.cn/music/photo_new/T053XD00001779cQ4Y6G86.jpg" alt="Your Avatar">
+            </div>
+            <div class="button-container">
+                <a href="https://srul.cn/S7QpFnU" target="_blank">点我进吃瓜群🍉</a>
+                <a href="https://wwzl.lanzout.com/s/xtcg" target="_blank">往期合集</a>
+                <a href="https://wwb.lanzout.com/s/xT666" target="_blank">安卓破解佬司机APP</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
